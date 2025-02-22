@@ -17,4 +17,14 @@ This repository contains a minimalistic **TCP-based chat application** implement
    gcc chat-server.c -o server
    gcc chat-client.c -o client
 
-2. 
+2. ** Run the server** on a machine using the following command
+
+   ```sh
+   ./chat-server
+
+3. **Run the client** and connect using the following command
+
+   ```sh
+   ./chat-client
+
+Now, you can send and receive messages between the client and server in real time! 
